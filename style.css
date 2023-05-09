@@ -130,7 +130,7 @@ h2{
 
 
 }
-@media (min-width: 375px) {
+@media (max-width: 375px) {
     /* Estilos para dispositivos con ancho de pantalla de 768px o más */
     .container {
         display: flex;

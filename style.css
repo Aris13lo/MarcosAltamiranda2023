@@ -1,0 +1,181 @@
+/* Estilos para la imagen */
+*{
+    margin: 0;
+}
+.container{
+    background-image: url(/assets/main/papel-pintado-pared-hormigon-pintado-textura-concepto-coloreado.jpg);
+    background-size: 100% ;
+    margin: 0;
+    background-position: center center;
+    z-index: 0;
+      
+}
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    background-color: #ffffff00;
+}
+
+/* estilo de titulos */
+.titles{
+    background-color: #ffffff00;
+    padding-top: 10px;
+}
+/* Estilos para los títulos */
+.image-container h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.image-container h2 {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+/* Estilos para los botones */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+
+.button-container button {
+    font-family: 'Lilita One', cursive;
+    text-decoration:none;
+    background-color: #007bff;
+    border: 10px;
+    color: white;
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+    background-color: #0069d9;
+}
+
+h1{
+    background-color: #ffffff00;
+    color: rgb(217, 217, 217);
+    margin-top: 0;
+    font-family: 'Lilita One', cursive;
+}
+h2{
+    font-family: 'Lilita One', cursive;
+    background-color: #ffffff00;
+    color: rgb(214, 214, 214);
+    margin-top: 0;
+    font-family: 'Lilita One', cursive;
+    
+}
+
+/* zocalo */
+
+.zocalo{
+    
+}
+.img-zocalo{
+    width: 20rem;
+    margin: 10px;
+}
+
+@media (min-width: 768px) {
+    /* Estilos para dispositivos con ancho de pantalla de 768px o más */
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        background-image: url(/assets/main/tablet.jpg);
+        background-size: 100% ;
+        margin: 0;
+    
+    background-position: center center;
+    z-index: 0;
+    }
+
+    .imagen{
+        width: 100rem;
+    }
+    .image-container {
+        max-width: 70%;
+        margin-bottom: 2rem;
+    }
+
+    .button-container {
+        flex-direction: row;
+    }
+
+    .button-container button {
+        margin-right: 1rem;
+    }
+   /* zocalo */
+    .zocalo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .img-zocalo{
+    width: 20rem;
+    }
+
+
+}
+@media (min-width: 375px) {
+    /* Estilos para dispositivos con ancho de pantalla de 768px o más */
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        background-image: url(/assets/main/telefono.jpg);
+        background-size: 100% ;
+        margin: 0;
+    
+    background-position: center center;
+    z-index: 0;
+    }
+
+    .image-container {
+        max-width: 80%;
+        margin-bottom: 2rem;
+        margin-top: 10px;
+    }
+
+    .button-container {
+        flex-direction: row;
+    }
+
+    .button-container button {
+        margin-right: 1rem;
+    }
+   /* zocalo */
+    .zocalo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .img-zocalo{
+    width: 20rem;
+    }
+    .aldo{
+        display: none;
+    }
+       
+    
+    .graciela{
+        display: none;
+    }
+
+}

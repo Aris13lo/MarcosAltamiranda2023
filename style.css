@@ -130,7 +130,56 @@ h2{
 
 
 }
-@media (max-width: 375px) {
+@media (min-width: 375px) {
+    /* Estilos para dispositivos con ancho de pantalla de 768px o más */
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+        background-image: url(/assets/main/telefono.jpg);
+        background-size: 100% ;
+        margin: 0;
+    
+    background-position: center center;
+    z-index: 0;
+    }
+
+    .image-container {
+        max-width: 80%;
+        margin-bottom: 2rem;
+        margin-top: 10px;
+    }
+
+    .button-container {
+        flex-direction: row;
+    }
+
+    .button-container button {
+        margin-right: 1rem;
+    }
+   /* zocalo */
+    .zocalo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .img-zocalo{
+    width: 20rem;
+    }
+    .aldo{
+        display: none;
+    }
+       
+    
+    .graciela{
+        display: none;
+    }
+
+}
+@media (min-width: 155px) {
     /* Estilos para dispositivos con ancho de pantalla de 768px o más */
     .container {
         display: flex;
